@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "749259033121",
+    "project_id": "juego-de-plataforma",
+    "storage_bucket": "juego-de-plataforma.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749259033121:android:a0b1ab116c87391c347160",
+        "android_client_info": {
+          "package_name": "com.example.juego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749259033121-0th3q7urc5lvjr900dapb0m37kqsojtj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.juego",
+            "certificate_hash": "4480b7472f5fd6eb481c46bd22de8a5dd77f7411"
+          }
+        },
+        {
+          "client_id": "749259033121-s5rjbsdjiv690p38f6aple8mrjr0c43r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgaqqR5EaqxoKSBdS1BMXoJ48D1u5MbJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749259033121-s5rjbsdjiv690p38f6aple8mrjr0c43r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
