@@ -12,4 +12,17 @@
     <string name="correoLoginEt">Correo Electronico</string>
     <string name="passLoginEt">Contraseña</string>
     <string name="Entrar">Entrar</string>
+    <!--MENU-->
+    <string name="Puntuaciontxt">Mi Puntuación</string>
+    <string name="Plataformas">--</string>
+    <string name="uid">--</string>
+    <string name="correo">--</string>
+    <string name="usuario">--</string>
+
+    <string name="Menutxt">Menú</string>
+
+    <string name="btn_jugar">Jugar</string>
+    <string name="btn_puntuaciones">Puntuaciones</string>
+    <string name="btn_acerca">Acerca de</string>
+    <string name="btn_cerrarSesion">Cerrar Sesión</string>
 </resources>
