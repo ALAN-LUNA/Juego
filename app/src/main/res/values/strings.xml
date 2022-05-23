@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Juego</string>
+
+    <string name="btn_login">Iniciar Sesion</string>
+    <string name="btn_registrar">Crear Cuenta!</string>
+
+    <string name="correoEt">Ingresa tu Correo</string>
+    <string name="passEt">Contraseña</string>
+    <string name="usuarioEt">Usuario</string>
+    <string name="Registrar">REGISTRAR</string>
 </resources>
