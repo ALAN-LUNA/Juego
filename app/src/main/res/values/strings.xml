@@ -1,11 +1,15 @@
 <resources>
     <string name="app_name">Juego</string>
-
+    <!--MAIN-->
     <string name="btn_login">Iniciar Sesion</string>
     <string name="btn_registrar">Crear Cuenta!</string>
-
+    <!--REGISTRO-->
     <string name="correoEt">Ingresa tu Correo</string>
     <string name="passEt">Contraseña</string>
     <string name="usuarioEt">Usuario</string>
     <string name="Registrar">REGISTRAR</string>
+    <!--LOGIN-->
+    <string name="correoLoginEt">Correo Electronico</string>
+    <string name="passLoginEt">Contraseña</string>
+    <string name="Entrar">Entrar</string>
 </resources>

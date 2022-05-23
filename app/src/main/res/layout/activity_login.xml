@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Registro">
+    tools:context=".Login">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
@@ -18,11 +18,11 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/correoEt"
+                android:id="@+id/correoLoginEt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints="no"
-                android:hint="@string/correoEt"
+                android:hint="@string/correoLoginEt"
                 android:inputType="textEmailAddress" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -33,37 +33,23 @@
             app:passwordToggleEnabled="true">
 
             <EditText
-                android:id="@+id/passEt"
+                android:id="@+id/passLoginEt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/passEt"
+                android:layout_marginTop="10dp"
                 android:autofillHints="no"
-                android:inputType="textPassword"
-                android:layout_marginTop="10dp" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <EditText
-                android:id="@+id/usuarioEt"
-                android:hint="@string/usuarioEt"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:autofillHints="no"
-                android:layout_marginTop="10dp"/>
+                android:hint="@string/passLoginEt"
+                android:inputType="textPassword" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/Registrar"
+            android:id="@+id/Entrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:text="@string/Registrar" />
+            android:layout_marginTop="20dp"
+            android:hint="@string/Entrar"
+            android:text="@string/Entrar"/>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
