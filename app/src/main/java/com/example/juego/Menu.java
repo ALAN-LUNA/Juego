@@ -54,6 +54,38 @@ public class Menu extends AppCompatActivity {
         btn_acerca = findViewById(R.id.btn_acerca);
         btn_cerrarSesion = findViewById(R.id.btn_cerrarSesion);
 
+        btn_jugar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Menu.this,Juego.class);
+                /*convertimos en string para enviar parametros*/
+                String UidS = uid.getText().toString();
+                String UsuarioS = usuario.getText().toString();
+                String PlataformasS = Plataformas.getText().toString();
+                /*enviar*/
+                intent.putExtra("UID",UidS);
+                intent.putExtra("USUARIO",UsuarioS);
+                intent.putExtra("PLATAFORMA",PlataformasS);
+
+                startActivity(intent);
+
+            }
+        });
+
+        btn_puntuaciones.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
+        btn_acerca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
         btn_cerrarSesion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

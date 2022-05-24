@@ -34,9 +34,10 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     testImplementation 'junit:junit:4.13.2'
 
-    implementation 'com.google.android.material:material:1.6.0' /*DISEÑO*/
-    implementation 'com.google.firebase:firebase-auth:21.0.4'   /*AUTENTICACIÓN*/
-    implementation 'com.google.firebase:firebase-database:20.0.5'/*BASE DATOS*/
+    implementation 'com.google.android.material:material:1.6.0'     /*DISEÑO*/
+    implementation 'com.google.firebase:firebase-auth:21.0.4'       /*AUTENTICACIÓN*/
+    implementation 'com.google.firebase:firebase-database:20.0.5'   /*BASE DATOS*/
+    implementation 'com.airbnb.android:lottie:3.0.1'                /*ANIMACIONES*/
 
     implementation platform('com.google.firebase:firebase-bom:30.0.1')
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

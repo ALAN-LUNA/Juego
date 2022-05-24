@@ -25,4 +25,10 @@
     <string name="btn_puntuaciones">Puntuaciones</string>
     <string name="btn_acerca">Acerca de</string>
     <string name="btn_cerrarSesion">Cerrar Sesión</string>
+
+    <!--JUEGO-->
+    <string name="TvContador"> 0 </string>
+    <string name="TvUsuario"> ---- </string>
+    <string name="TvTiempo"> 0S </string>
+
 </resources>
