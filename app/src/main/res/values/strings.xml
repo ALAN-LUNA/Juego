@@ -31,4 +31,7 @@
     <string name="TvUsuario"> ---- </string>
     <string name="TvTiempo"> 0S </string>
 
+    <string name="AnchoTv">--</string>
+    <string name="AltoTv">--</string>
+
 </resources>
