@@ -36,10 +36,10 @@
                 android:id="@+id/passEt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/passEt"
+                android:layout_marginTop="10dp"
                 android:autofillHints="no"
-                android:inputType="textPassword"
-                android:layout_marginTop="10dp" />
+                android:hint="@string/passEt"
+                android:inputType="textPassword" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -49,12 +49,12 @@
 
             <EditText
                 android:id="@+id/usuarioEt"
-                android:hint="@string/usuarioEt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text"
+                android:layout_marginTop="10dp"
                 android:autofillHints="no"
-                android:layout_marginTop="10dp"/>
+                android:hint="@string/usuarioEt"
+                android:inputType="text" />
 
         </com.google.android.material.textfield.TextInputLayout>
 

@@ -24,6 +24,7 @@
             android:id="@+id/Plataformas"
             android:text="@string/Plataformas"
             android:gravity="center"
+            android:textSize="25sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
@@ -39,6 +40,7 @@
             android:id="@+id/uid"
             android:text="@string/uid"
             android:gravity="center"
+            android:textSize="25sp"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -47,6 +49,7 @@
             android:id="@+id/correo"
             android:text="@string/correo"
             android:gravity="center"
+            android:textSize="25sp"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -55,6 +58,7 @@
             android:id="@+id/usuario"
             android:text="@string/usuario"
             android:gravity="center"
+            android:textSize="25sp"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
